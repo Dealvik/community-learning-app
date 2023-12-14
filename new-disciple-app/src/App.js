@@ -2,6 +2,7 @@ import "./App.css";
 import Video from "./Video";
 import { useEffect, useState } from "react";
 import { db, getVideos } from "./firebase";
+import { useEffect, useState } from "react";
 import YouTube from "react-youtube";
 import Person2Icon from "@mui/icons-material/Person2";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
@@ -219,7 +220,7 @@ function App() {
                   </li>
                   <li className="footer-item">
                     <a href="/investors">Investors</a>
-                   </li>
+                  </li>
                   <li className="footer-item">
                     <a href="/terms">Terms</a>
                   </li>
